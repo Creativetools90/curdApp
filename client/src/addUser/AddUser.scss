@@ -1,0 +1,28 @@
+.AddUser {
+    width: 25%;
+    padding: 20px;
+
+    form {
+        margin-top: 10px;
+
+        .inputGroup{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin: 10px 0;
+
+            input {
+                padding: 10px;
+            }
+
+            button {
+                padding: 10px;
+                border: none;
+                outline: none;
+                background: purple;
+                color: white;
+            }
+
+        }
+    }
+}
